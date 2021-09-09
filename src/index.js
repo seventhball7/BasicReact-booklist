@@ -1,22 +1,13 @@
-import React from "react"; //if we want to create a component we have to import react
-import reactDom from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
 
-//CSS
-import "./index.css";
+ReactDOM.render(
+  <React.StrictMode>
+    <h1 style={{textAlign: "center" }}>Books</h1>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
 
-import Book from "./Book.js";
-
-//always return JSX
-function Booklist() {
-
-  return (
-    <section className="booklist ">
-      <h1>Books</h1>
-      <Book/>
-
-    </section>
-  );
- 
-}
-
-reactDom.render(<Booklist />, document.getElementById("root")); 

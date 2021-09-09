@@ -37,3 +37,36 @@ body{
 .book h1{
     margin-top: 0.5rem;
 }
+.button{
+ 
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+      
+
+}
+.container {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: var(--max-width);
+  }
+  .btn {
+    display: inline-block;
+    background-color: #008CBA;  
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--radius);
+    border-color: transparent;
+    text-transform: capitalize;
+    font-size: 1rem;
+    letter-spacing: var(--spacing);
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    transition: var(--transition);
+  }
