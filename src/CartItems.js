@@ -35,7 +35,7 @@ const Book = () => {
   return (
     <>
       <BookDetail
-        books={books}
+        books={state}
         AddItems={AddItems}
         DecreaseItems={DecreaseItems}
         RemoveSingleItem={RemoveSingleItem}
