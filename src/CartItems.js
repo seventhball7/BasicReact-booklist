@@ -40,11 +40,11 @@ const Book = () => {
         DecreaseItems={DecreaseItems}
         RemoveSingleItem={RemoveSingleItem}
       />
-      {/* <section style={{ margin: "4rem 0", textAlign: "center" }}>
+      <section style={{ margin: "4rem 0", textAlign: "center" }}>
         <button type="button" className="btn" onClick={() => setState([])}>
           Delete Item
         </button>
-      </section> */}
+      </section>
     </>
   );
 };
